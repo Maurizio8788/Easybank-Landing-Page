@@ -1,0 +1,17 @@
+html{ overflow-x: hidden;}
+
+
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+    background-color: #FAFAFA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

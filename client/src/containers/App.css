@@ -1,0 +1,81 @@
+/* General style */
+
+h2{ font-size: 2.5rem; font-weight: lighter; color: #2D314D;}
+
+
+/* Navbar */
+
+.navbar{ height: 80px;}
+
+.navbar .navbar-toggler{ border:none;}
+
+.navbar .navbar-toggler:focus{ outline: none;}
+
+.navbar-light .navbar-nav .nav-link  { color: #9597A5;}
+
+.nav-item::after{ content: " "; display: block; max-width: 0; height: 4px; background: linear-gradient( to right, #33d35e, #2AB6D9 ); transition: max-width .7s ease-in-out;}
+
+.nav-item:hover::after { max-width: 100%;}
+
+/* Showcase */
+
+.showcase{ height: 656px;}
+
+.showcase h1{ font-size: 56px; font-weight: lighter; letter-spacing: 5px;}
+.showcase p{ font-size: 1.125rem; color: #9597A5; width: 86%;margin-top: 1em;margin-bottom: 1.3em;}
+
+.col-xl-6{ height: 656px;}
+
+.showcase__background{ top: -96px; z-index: -1;}
+
+.showcase__cellphone{ right: -60px; top: -117px;z-index: -1;}
+
+
+
+
+@media(max-width:767px){
+
+    h2{ font-size: 2rem;}
+
+    h4{ font-size: 1.25rem;}
+
+    /*  Navbar  */
+
+    .navbar{ height: auto;}
+    .navbar-nav{text-align: center;}
+
+    /* Showcase */
+
+    .showcase{ height: auto; text-align: center; padding-bottom: 10%;}
+
+    .showcase .row { flex-direction: column-reverse;}
+
+    .showcase h1 { font-size: 40px; letter-spacing: unset;}
+
+    .showcase p{ font-size: .8125rem; width: 100%;line-height: 1.5625em; letter-spacing: 1px; }
+
+    .showcase button{margin: 1em auto;}
+
+    .col-xl-6{ height: 313px;}
+
+    .showcase__background{ top: -65px;left: 0;width: 100%;}
+
+    .showcase__cellphone { right: unset; width: 100%; top: -122px; }
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    /* Navbar */
+
+    .navbar{ height: auto;}
+
+    .showcase{ height: auto; text-align: center; padding-bottom: 10%;}
+    .showcase .row { flex-direction: column-reverse;}
+    .col-xl-6{height: 300px;}
+    .showcase__background{ top: -223px;left: -33px; }
+    .showcase__cellphone { right: -84px;top: -271px; }
+
+    .showcase button{margin: 1em auto;}
+    .showcase p{width: 100%;line-height: 1.5625em; letter-spacing: 1px;font-size: .8125rem;}
+}

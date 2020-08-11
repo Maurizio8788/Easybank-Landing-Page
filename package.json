@@ -1,0 +1,33 @@
+{
+  "name": "easybank",
+  "version": "1.0.0",
+  "description": "Landing page Easybank",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maurizio8788/Easybank-Landing-page.git"
+  },
+  "keywords": [
+    "LandingPage",
+    "React",
+    "Javascript"
+  ],
+  "author": "Maurizio Strazzullo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maurizio8788/Easybank-Landing-page/issues"
+  },
+  "homepage": "https://github.com/Maurizio8788/Easybank-Landing-page#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
